@@ -1,0 +1,17 @@
+# Ignorar pastas e arquivos do Airflow
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+*.db
+
+# Ignorar volumes do Docker
+postgres_data/
+
+# Ignorar arquivos temporários
+*.swp
+*.pyc
+__pycache__/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
